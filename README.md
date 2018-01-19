@@ -1,13 +1,23 @@
-# gatsby-starter-default
-The default Gatsby starter
+# ifSilence
+This is the source code for [ifSilence.com](https://www.ifSilence.com)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+### Tech
+It is built with [Gatsby](https://www.gatsbyjs.org)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-example-site
-```
+### Deploy
+It is deployed to [Netlify](https://www.netlify.com) automatically when a commit is pushed to the Master branch.
 
-## Deploy
+### Development
+Use [Yarn](https://yarnpkg.com) to install dependencies:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+    yarn install
+
+Install Gatsby globally to run the CLI commands:
+
+    yarn global gatsby-cli
+
+Start the Gatsby development server:
+
+    gatsby develop
+
+The app should now be accessible at [localhost:8000](http://localhost:8000)    
