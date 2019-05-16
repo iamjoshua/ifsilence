@@ -1,0 +1,21 @@
+.container {
+  margin: 40% auto 0 auto;
+  text-align: center;
+}
+h1 {
+  line-height: 1.5;
+  letter-spacing: 0px;
+  color: hsl(0, 0%, 26%);
+}
+p {
+  margin-top: 100px;
+  color: hsl(0, 0%, 81%);
+  margin-bottom: 30%
+}
+.tagline {
+}
+.highlight {
+  padding: 10px;
+  background-color: hsl(0, 0%, 26%);
+  color: white
+}

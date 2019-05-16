@@ -4,8 +4,10 @@
   "version": "1.0.0",
   "author": "Joshua Heiland <thezenman@Gmail.com>",
   "dependencies": {
+    "axios": "^0.17.1",
     "gatsby": "^1.9.158",
     "gatsby-link": "^1.6.34",
+    "gatsby-plugin-create-client-paths": "^1.0.3",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typography": "^1.7.10",
     "react-helmet": "^5.2.0",
